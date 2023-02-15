@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "source-path": ["src"],
+    "default-frame-rate": 50,
+    "default-background-color": "#FFFFFF",
+    "default-size": {
+      "width": 25,
+      "height": 25
+    },
+    "target-player": "32.0",
+    "accessible": false,
+    "advanced-telemetry": false,
+    "benchmark": false,
+    "optimize": true,
+    "omit-trace-statements": true,
+    "show-unused-type-selector-warnings": true,
+    "strict": true,
+    "use-network": true,
+    "use-resource-bundle-metadata": true,
+    "warnings": true,
+    "verbose-stacktraces": false,
+    "static-link-runtime-shared-libraries": true,
+    "output": "../dist/output/flash/test-ui.swf",
+    "external-library-path": [
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/base_app-1.0-SNAPSHOT.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/battle.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/common_i18n_library-1.0-SNAPSHOT.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/common-1.0-SNAPSHOT.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/gui_base-1.0-SNAPSHOT.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/gui_battle-1.0-SNAPSHOT.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/gui_lobby-1.0-SNAPSHOT.swc",
+      "/Users/gabriel/Development/wot/mods/test/dist/flash/lobby.swc"
+    ]
+  },
+  "files": ["src/TestUI.as"]
+}
