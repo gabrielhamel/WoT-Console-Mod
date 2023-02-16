@@ -1,7 +1,7 @@
 {
   "python.analysis.extraPaths": [
-    "/Users/gabriel/Development/wot/tools/wot-src/sources/res/scripts/client/",
-    "/Users/gabriel/Development/wot/tools/wot-src/sources/res/scripts/"
+    "C:\\Users\\gabriel\\Documents\\wot\\wot-src\\sources\\res\\scripts\\client\\",
+    "C:\\Users\\gabriel\\Documents\\wot\\wot-src\\sources\\res\\scripts\\"
   ],
-  "as3mxml.sdk.framework": "/Users/gabriel/Development/wot/tools/flash-sdk/sources"
+  "as3mxml.sdk.framework": "C:\\Users\\gabriel\\Documents\\wot\\apache-flex"
 }

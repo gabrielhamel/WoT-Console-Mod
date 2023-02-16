@@ -20,16 +20,16 @@
     "warnings": true,
     "verbose-stacktraces": false,
     "static-link-runtime-shared-libraries": true,
-    "output": "../dist/output/flash/test-ui.swf",
+    "output": "..\\dist\\output\\flash\\test-ui.swf",
     "external-library-path": [
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/base_app-1.0-SNAPSHOT.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/battle.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/common_i18n_library-1.0-SNAPSHOT.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/common-1.0-SNAPSHOT.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/gui_base-1.0-SNAPSHOT.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/gui_battle-1.0-SNAPSHOT.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/gui_lobby-1.0-SNAPSHOT.swc",
-      "/Users/gabriel/Development/wot/mods/test/dist/flash/lobby.swc"
+      "..\\dist\\flash\\base_app-1.0-SNAPSHOT.swc",
+      "..\\dist\\flash\\battle.swc",
+      "..\\dist\\flash\\common_i18n_library-1.0-SNAPSHOT.swc",
+      "..\\dist\\flash\\common-1.0-SNAPSHOT.swc",
+      "..\\dist\\flash\\gui_base-1.0-SNAPSHOT.swc",
+      "..\\dist\\flash\\gui_battle-1.0-SNAPSHOT.swc",
+      "..\\dist\\flash\\gui_lobby-1.0-SNAPSHOT.swc",
+      "..\\dist\\flash\\lobby.swc"
     ]
   },
   "files": ["src/TestUI.as"]
