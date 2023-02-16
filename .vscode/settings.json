@@ -1,7 +1,0 @@
-{
-  "python.analysis.extraPaths": [
-    "C:\\Users\\gabriel\\Documents\\wot\\wot-src\\sources\\res\\scripts\\client\\",
-    "C:\\Users\\gabriel\\Documents\\wot\\wot-src\\sources\\res\\scripts\\"
-  ],
-  "as3mxml.sdk.framework": "C:\\Users\\gabriel\\Documents\\wot\\apache-flex"
-}
