@@ -2,7 +2,7 @@ import os
 import xml.etree.ElementTree as ET
 import zipfile
 import shutil
-import glob
+from pathlib import Path
 
 def game_version(game_dir):
     xml = ET.parse(os.path.join(game_dir, "version.xml"))
@@ -46,7 +46,7 @@ def build_python_scripts(input_dir, output_dir):
 
     shutil.copytree(input_dir, output_dir)
     os.system("conda run -n py2 python -m compileall " + output_dir)
-    for py in glob.iglob(os.path.join(output_dir, '*.py')):
+    for py in Path(output_dir).rglob('*.py'):
         os.remove(py)
 
 def build_flash_project(input_dir, flash_sdk_dir):
@@ -75,4 +75,4 @@ build_python_scripts("scripts", os.path.join("dist", "output", "scripts"))
 build_flash_project("ui", flash_sdk_dir)
 
 export_resources_to_game(version, game_dir, os.path.join("dist", "output", "scripts"), os.path.join("scripts", "client", "gui", "mods"))
-export_resources_to_game(version, game_dir, os.path.join("dist", "output", "flash"), os.path.join("gui", "flash", "test"))
+export_resources_to_game(version, game_dir, os.path.join("dist", "output", "flash"), os.path.join("gui", "flash"))

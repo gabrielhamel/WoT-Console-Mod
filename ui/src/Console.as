@@ -6,7 +6,7 @@ package
     import flash.ui.Keyboard;
     import net.wg.gui.components.controls.TextInput;
 
-    public class TestUi extends AbstractWindowView
+    public class Console extends AbstractWindowView
     {
         private var commandPrompt: TextInput;
         private var commandOutput: TextInput;
