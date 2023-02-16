@@ -11,7 +11,7 @@ Just press **F10** when the game is running to open the console
 
 ## Installation
 
-Download the latest release from the release pages and put the .wotmod file in the mods folder of the game.
+Download the latest release from the [release pages](https://github.com/gabrielhamel/WoT-Console-Mod/releases/latest) and put the .wotmod file in the mods folder of the game.
 (eg. C:\Games\World_of_Tanks_EU\mods\1.19.1.0)
 
 ## License
